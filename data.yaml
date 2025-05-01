@@ -1,0 +1,13 @@
+train: "C:/Users/Deede/yolo-V8 - Copy/Datasets/train/images"
+val: "C:/Users/Deede/yolo-V8 - Copy/Datasets/valid/images"
+test: "C:/Users/Deede/yolo-V8 - Copy/Datasets/test/images"
+
+nc: 2
+names: ['Crack', 'Spall']
+
+roboflow:
+  workspace: crack-analysis-lac4q
+  project: crack-analysis-qwgjf
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crack-analysis-lac4q/crack-analysis-qwgjf/dataset/5
