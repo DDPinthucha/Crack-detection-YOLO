@@ -28,7 +28,7 @@ Crack-Detection-YOLOv8/
 
 ## 🧠 Models Used
 
-##Models Used
+**## Models Used**
 
 - **YOLOv8** (baseline)
 - **YOLOv11** (latest version with improved architecture)
