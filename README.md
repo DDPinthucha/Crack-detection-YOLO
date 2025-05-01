@@ -1,4 +1,4 @@
-# Concrete Crack Detection using YOLOv8
+# Concrete Crack Detection using YOLOv8 and YOLOv11
 
 This project uses YOLOv8 to detect two types of damage on concrete surfaces: **Crack** and **Spall**.
 
