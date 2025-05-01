@@ -128,8 +128,7 @@ opencv-python
 
 ## 👥 Authors
 
-- **Parinya Boonpama**  
-  `parinya.boonpama@g.swu.ac.th`  
 - **Pinthucha Ruckpintuwat**  
   `Deedeelimm@gmail.com`
-
+- **Parinya Boonpama**  
+  `parinya.boonpama@g.swu.ac.th`  
