@@ -6,6 +6,26 @@ This project compares the performance of two deep learning models—**YOLOv8** a
 
 To analyze and compare the detection performance, speed, and accuracy of YOLOv8 vs. YOLOv11 in identifying concrete surface defects.
 
+## 📂 Project Structure
+
+```plaintext
+Crack-Detection-YOLOv8/
+├── example dataset/
+│   ├── train/
+│   ├── valid/
+│   └── test/
+├── result - YOLOv8/
+│   ├── confusion_matrix.png
+│   ├── PR_curve.png
+│   ├── F1_curve.png
+│   ├── R_curve.png
+│   ├── P_curve.png
+│   ├── result.png
+│   └── val_batch*_labels/pred.jpg
+├── data.yaml
+├── requirements.txt
+└── README.md
+
 ## 🧠 Models Used
 
 - **YOLOv8** (baseline)
@@ -50,6 +70,18 @@ To analyze and compare the detection performance, speed, and accuracy of YOLOv8 
 - **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
 - **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
 
+### 📌 Confusion Matrix & PR Curve
+
+| Confusion Matrix                                | Precision-Recall Curve                     |
+|--------------------------------------------------|--------------------------------------------|
+| ![](result%20-%20YOLOv8/confusion_matrix.png)    | ![](result%20-%20YOLOv8/PR_curve.png)      |
+
+### 🔍 Per-Class Performance Curves
+
+| F1 Score Curve                                   | Precision Curve                             | Recall Curve                              |
+|--------------------------------------------------|----------------------------------------------|-------------------------------------------|
+| ![](result%20-%20YOLOv8/F1_curve.png)            | ![](result%20-%20YOLOv8/P_curve.png)         | ![](result%20-%20YOLOv8/R_curve.png)      |
+
 ## ⚡ Speed Comparison
 
 | Model     | Training Time (40 epochs) | Inference Speed (ms/image) | Model Size | FLOPs |
@@ -57,17 +89,33 @@ To analyze and compare the detection performance, speed, and accuracy of YOLOv8 
 | YOLOv8    | 0.109 hrs (6.5 mins)       | 83.7 ms (GPU)               | 6.2 MB     | 8.1 G |
 | YOLOv11   | 0.119 hrs (7.1 mins)       | 2.9 ms (GPU)                | 5.5 MB     | 6.3 G |
 
-## 🖼️ Sample Outputs
+## 🧪 Sample Predictions
 
-| Model | Ground Truth vs Prediction |
-|-------|----------------------------|
-| YOLOv8 | ![YOLOv8](result - YOLOv8/val_batch0_labels) |
-| YOLOv11 | ตี้มาใส่ด้วย |
+| Ground Truth                                     | YOLOv8 Predictions                           |
+|--------------------------------------------------|----------------------------------------------|
+| ![](result%20-%20YOLOv8/val_batch0_labels.jpg)   | ![](result%20-%20YOLOv8/val_batch0_pred.jpg) |
+
 
 ## 💡 Conclusion
 
 - **YOLOv11** is more suitable for **real-time, safety-critical applications** like bridge or infrastructure inspections.
 - **YOLOv8** remains a valid alternative for general use, especially in low-resource environments.
+
+## 🧾 Requirements
+
+Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Example packages used:
+
+```txt
+ultralytics==8.0.20
+torch
+opencv-python
+```
 
 ## 📌 Future Work
 
@@ -77,5 +125,10 @@ To analyze and compare the detection performance, speed, and accuracy of YOLOv8 
 
 ---
 
-## 🧾 Citation
+## 👥 Authors
+
+- **Parinya Boonpama**  
+  `parinya.boonpama@g.swu.ac.th`  
+- **Pinthucha Ruckpintuwat**  
+  `Deedeelimm@gmail.com`
 
