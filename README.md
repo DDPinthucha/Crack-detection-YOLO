@@ -26,3 +26,4 @@ Crack-Detection-YOLOv8/
 ├── requirements.txt
 └── README.md
 
+**Model Used**
