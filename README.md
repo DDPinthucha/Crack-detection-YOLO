@@ -61,7 +61,7 @@ To analyze and compare the detection performance, speed, and accuracy of YOLOv8 
 
 | Model | Ground Truth vs Prediction |
 |-------|----------------------------|
-| YOLOv8 | ![YOLOv8](results - YOLOv8/val_batch0_pred.jpg) vs  ![YOLOv8](results - YOLOv8/val_batch0_labels.jpg) |
+| YOLOv8 | ![YOLOv8](result - YOLOv8/val_batch0_labels) |
 | YOLOv11 | ตี้มาใส่ด้วย |
 
 ## 💡 Conclusion
