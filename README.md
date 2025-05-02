@@ -2,7 +2,8 @@
 
 This project compares the performance of two deep learning models—**YOLOv8** and **YOLOv11**—for detecting surface damage on concrete structures, focusing on two key defect types: **crack** and **spall**. The goal is to evaluate which model is more accurate and efficient for real-world structural inspections.
 
-**Report Link:**
+**Report Link:** https://drive.google.com/file/d/1yDCUpq7zvdnUtfnEfrzoms-qFYAL-aGP/view?usp=sharing
+
 **Presentation Link:** https://www.canva.com/design/DAGkUMcgs_o/2DWEGSc1hvsSVPVqODVxjw/edit?utm_content=DAGkUMcgs_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## 📌 Objective
