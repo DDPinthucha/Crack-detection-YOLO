@@ -26,6 +26,15 @@ Crack-Detection-YOLOv8/
 │   ├── P_curve.png
 │   ├── result.png
 │   └── val_batch*_labels/pred.jpg
+├── result - YOLOv11/
+│   ├── confusion_matrix.png
+│   ├── PR_curve.png
+│   ├── F1_curve.png
+│   ├── R_curve.png
+│   ├── P_curve.png
+│   ├── result.png
+│   └── val_batch*_labels/pred.jpg
+├── Crack-detection_finetune.py
 ├── data.yaml
 ├── requirements.txt
 └── README.md
@@ -75,17 +84,29 @@ Crack-Detection-YOLOv8/
 - **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
 - **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
 
-### 📌 Confusion Matrix & PR Curve
+### 📌 Confusion Matrix & PR Curve for YOLOv8
 
 | Confusion Matrix                                | Precision-Recall Curve                     |
 |--------------------------------------------------|--------------------------------------------|
 | ![](result%20-%20YOLOv8/confusion_matrix.png)    | ![](result%20-%20YOLOv8/PR_curve.png)      |
 
-### 🔍 Per-Class Performance Curves
+### 🔍 Per-Class Performance Curves for YOLOv8
 
-| F1 Score Curve                                   | Precision Curve                             | Recall Curve                              |
+| F1 Score Curve                                   | Precision Curve                              | Recall Curve                              |
 |--------------------------------------------------|----------------------------------------------|-------------------------------------------|
 | ![](result%20-%20YOLOv8/F1_curve.png)            | ![](result%20-%20YOLOv8/P_curve.png)         | ![](result%20-%20YOLOv8/R_curve.png)      |
+
+### 📌 Confusion Matrix & PR Curve for YOLOv11
+
+| Confusion Matrix                                | Precision-Recall Curve                     |
+|--------------------------------------------------|--------------------------------------------|
+| ![](result%20-%20YOLOv11/confusion_matrix.png)    | ![](result%20-%20YOLOv11/PR_curve.png)      |
+
+### 🔍 Per-Class Performance Curves for YOLOv11
+
+| F1 Score Curve                                   | Precision Curve                              | Recall Curve                              |
+|--------------------------------------------------|----------------------------------------------|-------------------------------------------|
+| ![](result%20-%20YOLOv11/F1_curve.png)            | ![](result%20-%20YOLOv11/P_curve.png)         | ![](result%20-%20YOLOv11/R_curve.png)      |
 
 ## ⚡ Speed Comparison
 
@@ -96,9 +117,9 @@ Crack-Detection-YOLOv8/
 
 ## 🧪 Sample Predictions
 
-| Ground Truth                                     | YOLOv8 Predictions                           |
-|--------------------------------------------------|----------------------------------------------|
-| ![](result%20-%20YOLOv8/val_batch0_labels.jpg)   | ![](result%20-%20YOLOv8/val_batch0_pred.jpg) |
+| Ground Truth                                     | YOLOv8 Predictions                           | YOLOv11 Predictions                           |
+|--------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| ![](result%20-%20YOLOv8/val_batch0_labels.jpg)   | ![](result%20-%20YOLOv8/val_batch0_pred.jpg) | ![](result%20-%20YOLOv11/val_batch0_pred.jpg) |
 
 
 ## 💡 Conclusion
@@ -120,11 +141,11 @@ Example packages used:
 ultralytics==8.0.20
 torch
 opencv-python
+jupyter
 ```
 
 ## 📌 Future Work
 
-- Fine-tune YOLOv11 for better Spall detection
 - Expand dataset to more damage types (e.g., rebar, joint cracks)
 - Explore data augmentation and domain-specific tuning
 
@@ -135,4 +156,4 @@ opencv-python
 - **Pinthucha Ruckpintuwat**  
   `Deedeelimm@gmail.com`
 - **Parinya Boonpama**  
-  `parinya.boonpama@g.swu.ac.th`  
+  `smg.ttmt@gmail.com`  
