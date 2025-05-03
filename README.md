@@ -136,8 +136,8 @@ Crack-Detection-YOLOv8/
 
 ## 💡 Conclusion
 
-- **YOLOv11** is more suitable for **real-time, safety-critical applications** like bridge or infrastructure inspections.
 - **YOLOv8** remains a valid alternative for general use, especially in low-resource environments.
+- **YOLOv11** is more suitable for **real-time, safety-critical applications** like bridge or infrastructure inspections.
 
 ## 🧾 Requirements
 
