@@ -84,29 +84,25 @@ Crack-Detection-YOLOv8/
 - **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
 - **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
 
-### 📌 Confusion Matrix & PR Curve for YOLOv8
+### 📌 Confusion Matrix & PR Curve
 
-| Confusion Matrix                                | Precision-Recall Curve                     |
+| Confusion Matrix YOLOv8                          | Precision-Recall Curve YOLOv8              |
 |--------------------------------------------------|--------------------------------------------|
 | ![](result%20-%20YOLOv8/confusion_matrix.png)    | ![](result%20-%20YOLOv8/PR_curve.png)      |
 
-### 🔍 Per-Class Performance Curves for YOLOv8
+| Confusion Matrix YOLOv11                          | Precision-Recall Curve YOLOv11              |
+|---------------------------------------------------|---------------------------------------------|
+| ![](result%20-%20YOLOv11/confusion_matrix.png)    | ![](result%20-%20YOLOv11/PR_curve.png)      |
 
-| F1 Score Curve                                   | Precision Curve                              | Recall Curve                              |
+### 🔍 Per-Class Performance Curves
+
+| F1 Score Curve YOLOv8                            | Precision Curve YOLOv8                       | Recall Curve YOLOv8                       |
 |--------------------------------------------------|----------------------------------------------|-------------------------------------------|
 | ![](result%20-%20YOLOv8/F1_curve.png)            | ![](result%20-%20YOLOv8/P_curve.png)         | ![](result%20-%20YOLOv8/R_curve.png)      |
 
-### 📌 Confusion Matrix & PR Curve for YOLOv11
-
-| Confusion Matrix                                | Precision-Recall Curve                     |
-|--------------------------------------------------|--------------------------------------------|
-| ![](result%20-%20YOLOv11/confusion_matrix.png)    | ![](result%20-%20YOLOv11/PR_curve.png)      |
-
-### 🔍 Per-Class Performance Curves for YOLOv11
-
-| F1 Score Curve                                   | Precision Curve                              | Recall Curve                              |
-|--------------------------------------------------|----------------------------------------------|-------------------------------------------|
-| ![](result%20-%20YOLOv11/F1_curve.png)            | ![](result%20-%20YOLOv11/P_curve.png)         | ![](result%20-%20YOLOv11/R_curve.png)      |
+| F1 Score Curve YOLOv11                            | Precision Curve YOLOv11                     | Recall Curve YOLOv11                       |
+|---------------------------------------------------|---------------------------------------------|--------------------------------------------|
+| ![](result%20-%20YOLOv11/F1_curve.png)            | ![](result%20-%20YOLOv11/P_curve.png)       | ![](result%20-%20YOLOv11/R_curve.png)      |
 
 ## ⚡ Speed Comparison
 
