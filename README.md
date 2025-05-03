@@ -94,6 +94,12 @@ Crack-Detection-YOLOv8/
 |------------------------------------------------|
 | ![](result%20-%20YOLOv11/Model_Performance.png)    |
 
+| Bar Chart for Model Training Performance **YOLOv11**         |             
+|------------------------------------------------|
+| ![](result%20-%20YOLOv11/barchart_vs_YOLO.png)    |
+| Performance comparison between YOLOv8 and YOLOv11. |
+| YOLOv11 demonstrates superior performance across all evaluated metrics, including Precision, Recall, mAP@50, and mAP@50–95, indicating improved accuracy and robustness in detecting concrete surface damage. |
+
 ### 📌 Confusion Matrix & PR Curve
 
 | Confusion Matrix **YOLOv8**                          | Precision-Recall Curve **YOLOv8**              |
