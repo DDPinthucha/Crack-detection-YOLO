@@ -86,9 +86,13 @@ Crack-Detection-YOLOv8/
 
 ### 📊 Model Training Performance
 
-| Model Training Performance **YOLOv8**                      | Model Training Performance **YOLOv11**              |
-|------------------------------------------------------------|--------------------------------------------|
-| ![](result%20-%20YOLOv8/Model_Performance)    | ![](result%20-%20YOLOv11/Model_Performance)      |
+| Model Training Performance **YOLOv8**         |             
+|-----------------------------------------------|
+| ![](result%20-%20YOLOv8/Model_Performance)    |
+
+| Model Training Performance **YOLOv11**         |             
+|-----------------------------------------------|
+| ![](result%20-%20YOLOv11/Model_Performance)    |
 
 ### 📌 Confusion Matrix & PR Curve
 
