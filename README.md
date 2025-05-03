@@ -84,6 +84,12 @@ Crack-Detection-YOLOv8/
 - **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
 - **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
 
+### 📊 Model Training Performance
+
+| Model Training Performance **YOLOv8**                      | Model Training Performance **YOLOv11**              |
+|------------------------------------------------------------|--------------------------------------------|
+| ![](result%20-%20YOLOv8/Model Training Performance.png)    | ![](result%20-%20YOLOv11/Model Training Performance.png)      |
+
 ### 📌 Confusion Matrix & PR Curve
 
 | Confusion Matrix **YOLOv8**                          | Precision-Recall Curve **YOLOv8**              |
