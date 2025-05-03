@@ -79,11 +79,6 @@ Crack-Detection-YOLOv8/
 
 > 🟢 **YOLOv11** performs better across almost all metrics, especially in Crack detection and inference speed.
 
-## 🔍 Confusion Matrix Insights
-
-- **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
-- **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
-
 ### 📊 Model Training Performance
 
 | Model Training Performance **YOLOv8**          |             
@@ -109,6 +104,11 @@ Crack-Detection-YOLOv8/
 | Confusion Matrix **YOLOv11**                          | Precision-Recall Curve **YOLOv11**              |
 |---------------------------------------------------|---------------------------------------------|
 | ![](result%20-%20YOLOv11/confusion_matrix.png)    | ![](result%20-%20YOLOv11/PR_curve.png)      |
+
+## 🔍 Confusion Matrix Insights
+
+- **YOLOv8**: Struggles with false positives, especially confusing background as Spall.
+- **YOLOv11**: Better background separation and Crack classification, though Spall detection still needs improvement.
 
 ### 🔍 Per-Class Performance Curves
 
