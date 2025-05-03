@@ -86,21 +86,21 @@ Crack-Detection-YOLOv8/
 
 ### 📌 Confusion Matrix & PR Curve
 
-| Confusion Matrix YOLOv8                          | Precision-Recall Curve YOLOv8              |
+| Confusion Matrix **YOLOv8**                          | Precision-Recall Curve **YOLOv8**              |
 |--------------------------------------------------|--------------------------------------------|
 | ![](result%20-%20YOLOv8/confusion_matrix.png)    | ![](result%20-%20YOLOv8/PR_curve.png)      |
 
-| Confusion Matrix YOLOv11                          | Precision-Recall Curve YOLOv11              |
+| Confusion Matrix **YOLOv11**                          | Precision-Recall Curve **YOLOv11**              |
 |---------------------------------------------------|---------------------------------------------|
 | ![](result%20-%20YOLOv11/confusion_matrix.png)    | ![](result%20-%20YOLOv11/PR_curve.png)      |
 
 ### 🔍 Per-Class Performance Curves
 
-| F1 Score Curve YOLOv8                            | Precision Curve YOLOv8                       | Recall Curve YOLOv8                       |
+| F1 Score Curve **YOLOv8**                            | Precision Curve **YOLOv8**                       | Recall Curve **YOLOv8**                       |
 |--------------------------------------------------|----------------------------------------------|-------------------------------------------|
 | ![](result%20-%20YOLOv8/F1_curve.png)            | ![](result%20-%20YOLOv8/P_curve.png)         | ![](result%20-%20YOLOv8/R_curve.png)      |
 
-| F1 Score Curve YOLOv11                            | Precision Curve YOLOv11                     | Recall Curve YOLOv11                       |
+| F1 Score Curve **YOLOv11**                            | Precision Curve **YOLOv11**                     | Recall Curve **YOLOv11**                       |
 |---------------------------------------------------|---------------------------------------------|--------------------------------------------|
 | ![](result%20-%20YOLOv11/F1_curve.png)            | ![](result%20-%20YOLOv11/P_curve.png)       | ![](result%20-%20YOLOv11/R_curve.png)      |
 
@@ -113,7 +113,7 @@ Crack-Detection-YOLOv8/
 
 ## 🧪 Sample Predictions
 
-| Ground Truth                                     | YOLOv8 Predictions                           | YOLOv11 Predictions                           |
+| Ground Truth                                     | **YOLOv8** Predictions                           | **YOLOv11** Predictions                           |
 |--------------------------------------------------|----------------------------------------------|----------------------------------------------|
 | ![](result%20-%20YOLOv8/val_batch0_labels.jpg)   | ![](result%20-%20YOLOv8/val_batch0_pred.jpg) | ![](result%20-%20YOLOv11/val_batch0_pred.jpg) |
 
